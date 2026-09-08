@@ -62,10 +62,26 @@ For the given statement, the system response is 'anger': 0.0, 'disgust': 0.0, 'f
 
 
 ## Running Tests
+## Unit Tests
 python3 -m unittest tests/test_emotion_detection.py
+
+## Expected Output
+
+```bash
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 2.345s
+
+OK
+``
 
 ## Static Code Analysis
 python3 -m pip install pylint
 pylint EmotionDetection/emotion_detection.py
 pylint server.py
 
+## Expected Output
+
+``bash
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10
